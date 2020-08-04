@@ -1,5 +1,6 @@
+import six
+
 from django.utils.translation import gettext as _
-from django.utils import six
 
 from django_enumfield.exceptions import InvalidStatusOperationError
 

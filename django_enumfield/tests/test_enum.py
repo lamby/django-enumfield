@@ -1,3 +1,4 @@
+import six
 import unittest
 
 import django
@@ -6,7 +7,6 @@ from django.test.client import RequestFactory
 from django.db import IntegrityError
 from django.forms import ModelForm, TypedChoiceField
 from django.test import TestCase
-from django.utils import six
 
 from django_enumfield.db.fields import EnumField
 from django_enumfield.enum import Enum
